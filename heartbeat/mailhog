@@ -62,7 +62,7 @@ This script manages mailhog
 <parameter name="binpath">
 <longdesc lang="en">
 The mailhog binary path.
-For example, ""
+For example, "mailhog"
 </longdesc>
 <shortdesc lang="en">Full path to the mailhog binary</shortdesc>
 <content type="string" default="${OCF_RESKEY_binpath_default}"/>
@@ -71,7 +71,7 @@ For example, ""
 <parameter name="conffile">
 <longdesc lang="en">
 The mailhog configuration file name with full path. 
-For example, ""
+For example, "mailhog"
 </longdesc>
 <shortdesc lang="en">Configuration file name with full path</shortdesc>
 <content type="string" default="${OCF_RESKEY_conffile_default}" />
@@ -80,7 +80,7 @@ For example, ""
 <parameter name="pidfile">
 <longdesc lang="en">
 The mailhog pidfile with full path. 
-For example, ""
+For example, "mailhog"
 </longdesc>
 <shortdesc lang="en">PID file with full path</shortdesc>
 <content type="string" default="${OCF_RESKEY_pidfile_default}" />
